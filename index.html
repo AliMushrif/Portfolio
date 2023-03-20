@@ -18,6 +18,13 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- REMIX ICON -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="Assets/css/swiper-bundle.min.css" />
     <title>Portfolio</title>
   </head>
   <body>
@@ -87,7 +94,7 @@
             </h1>
             <div class="home__blob grid">
               <div class="home__perfil">
-                <img src="Assets/img/perfil.png" alt="home perfil" />
+                <img src="Assets/img/Ali_Mushref_2.jpg" alt="home perfil" />
               </div>
               <img
                 src="Assets/img/shape-wawes.svg"
@@ -178,7 +185,7 @@
           <!--==================== SKILLS 1 ====================-->
           <div class="skills__content">
             <h3 class="skills__title">
-              <i class="fa-solid fa-code"></i> Frontend Developer
+              <i class="ri-braces-line"></i> Frontend Developer
             </h3>
             <div class="skills__info">
               <div class="skills__data">
@@ -238,7 +245,7 @@
           <!--==================== SKILLS 2 ====================-->
           <div class="skills__content">
             <h3 class="skills__title">
-              <i class="fa-solid fa-swatchbook"></i> Web Designer
+              <i class="ri-pantone-line"></i> Web Designer
             </h3>
             <div class="skills__info">
               <div class="skills__data">
@@ -295,13 +302,184 @@
       </section>
 
       <!--==================== QUALIFICATION ====================-->
-      <section class="qualification section" id="qualification"></section>
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">Experience & Education</span>
+        <div class="qualification__container container grid section__border">
+          <!--==================== QUALIFICATION 1 ====================-->
+          <div class="Qualification__content">
+            <h3 class="qualification__title">
+              <i class="ri-pencil-ruler-2-line"></i> Education
+            </h3>
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">
+                  Master In Visual Communication and New Media
+                </h3>
+                <span class="qualification__country"
+                  >Universiti Technology Mara (UiTM)</span
+                >
+                <span class="qualification__year">2021 - 2023</span>
+              </div>
+              <div>
+                <h3 class="qualification__name">Digital Media</h3>
+                <span class="qualification__country"
+                  >Universiti of Thi-Qar</span
+                >
+                <span class="qualification__year">2014 - 2018</span>
+              </div>
+            </div>
+          </div>
+          <!--==================== QUALIFICATION 2 ====================-->
+          <div class="Qualification__content">
+            <h3 class="qualification__title">
+              <i class="ri-building-line"></i> Work
+            </h3>
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">Graphic Designer</h3>
+                <span class="qualification__country">Uruk Printer - Iraq</span>
+                <span class="qualification__year">2018 - 2021</span>
+              </div>
+              <div>
+                <h3 class="qualification__name">Frontend Developer</h3>
+                <span class="qualification__country">Freelancer</span>
+                <span class="qualification__year">2021 - 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="Assets/img/shape-circle.svg"
+          alt="qualification image"
+          class="qualification__img"
+        />
+      </section>
 
       <!--==================== SERVICES ====================-->
-      <section class="services section" id="services"></section>
+      <section class="services section" id="services">
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What I offer</span>
+        <div class="services__container container grid section__border">
+          <div class="services__card">
+            <i class="ri-layout-4-line"></i>
+            <h2 class="services__title">
+              UI/UX <br />
+              Designer
+            </h2>
+            <p class="services__description">
+              Service that provides the best quality and at the request of the
+              client, with professional work and customer support.
+            </p>
+            <div class="services__border"></div>
+          </div>
+          <div class="services__card">
+            <i class="ri-code-line"></i>
+            <h2 class="services__title">
+              Website <br />
+              Design
+            </h2>
+            <p class="services__description">
+              Service that provides the best quality and at the request of the
+              client, with professional work and customer support.
+            </p>
+            <div class="services__border"></div>
+          </div>
+          <div class="services__card">
+            <i class="ri-quill-pen-line"></i>
+            <h2 class="services__title">
+              Digital <br />
+              Animator
+            </h2>
+            <p class="services__description">
+              Service that provides the best quality and at the request of the
+              client, with professional work and customer support.
+            </p>
+            <div class="services__border"></div>
+          </div>
+        </div>
+      </section>
 
       <!--==================== PROJECTS ====================-->
-      <section class="projects section" id="projects"></section>
+      <section class="projects section" id="projects">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Most recent work</span>
+        <div class="container section__border">
+          <div class="projects__container mySwiper">
+            <div class="swiper-wrapper">
+              <!--==================== PROJECT 1 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="Assets/img/project1.jpg"
+                  alt="project image"
+                  class="projects__img"
+                />
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h1 class="projects__title">Modern Website</h1>
+                  <a href="#" class="projects__button">
+                    View demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PROJECT 2 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="Assets/img/project2.jpg"
+                  alt="project image"
+                  class="projects__img"
+                />
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h1 class="projects__title">ECommerce Store</h1>
+                  <a href="#" class="projects__button">
+                    View demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PROJECT 3 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="Assets/img/project3.jpg"
+                  alt="project image"
+                  class="projects__img"
+                />
+                <div>
+                  <span class="projects__subtitle">Design</span>
+                  <h1 class="projects__title">Application Design</h1>
+                  <a href="#" class="projects__button">
+                    View demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PROJECT 4 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="Assets/img/project4.jpg"
+                  alt="project image"
+                  class="projects__img"
+                />
+                <div>
+                  <span class="projects__subtitle">Animation</span>
+                  <h1 class="projects__title">Animation Prototypes</h1>
+                  <a href="#" class="projects__button">
+                    View demo <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- swiper arrows -->
+            <div class="swiper-button-next">
+              <i class="ri-arrow-drop-right-line"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-drop-left-line"></i>
+            </div>
+            <!-- swiper pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
 
       <!--==================== TESTIMONIAL ====================-->
       <section class="testimonial section"></section>
@@ -319,7 +497,7 @@
     <script src=""></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="Assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== EMAIL JS ===============-->
 
