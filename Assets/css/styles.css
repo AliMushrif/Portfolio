@@ -634,6 +634,7 @@ body.dark-theme {
   width: 250px;
   border-radius: 0.75rem;
   margin-bottom: 1.25rem;
+  border: 1px solid var(--text-color-light);
 }
 
 .projects__subtitle {
